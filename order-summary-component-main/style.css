@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image:url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 300px;
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    font-size: 16px;
+    align-items:center;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    
+   
+}
+
+.container{
+    border-radius: 12px;
+    background-color: white ;
+    max-width: 450px;
+    margin: 0 auto;
+  
+
+}
+
+.image img{
+   max-width: 100%;
+   max-height: 100%;
+   border-top-left-radius: 12px;
+   border-top-right-radius: 12px;
+}
+
+.order{
+    text-align: center;
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    font-size: 27px;
+}
+
+.text{
+    text-align: center;
+    padding: 25px;
+   
+}
+
+.para{
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    color: hsl(224, 23%, 55%);
+}
+
+.float{
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 12px;
+    margin-top: 20px;
+    padding: 25px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.float1{
+    display: flex;
+    align-items: center;
+}
+
+.float2{
+    margin-left: 15px;
+    line-height: 25px;
+}
+
+.float2 p{
+    color: hsl(224, 23%, 55%);
+}
+
+.float4{
+    text-decoration: underline;
+    color: hsl(245, 75%, 52%);
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.payment{
+    background-color: hsl(245, 75%, 52%);
+    padding: 15px;
+    border-radius: 12px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 0px 15px 0px rgb(94, 94, 204) ;
+}
+
+.cancel{
+    color: hsl(224, 23%, 55%);
+    font-weight: 900;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.payment:hover{
+    background-color:hsl(245, 75%, 52%, 0.7);
+}
+
+.cancel:hover{
+    color:rgb(66, 66, 66);
+}
+
+.float4:hover{
+    text-decoration: none;
+    color: hsl(245, 75%, 52%, 0.7);
+    font-weight: 700;
+}
